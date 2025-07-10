@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "verbatimModuleSyntax": true,
+    "baseUrl": "./",
+    "allowJs": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "noEmit": true,
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "global.d.ts"]
+}
