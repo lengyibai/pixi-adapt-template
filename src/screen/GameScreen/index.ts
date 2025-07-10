@@ -2,7 +2,6 @@ import { GameMount } from "@/main";
 import { LibJsResizeWatcher } from "lyb-js/Base/LibJsResizeWatcher.js";
 import { LibDestroyContainer } from "lyb-pixi-js/Components/Base/LibDestroyContainer.js";
 import { LibPixiText } from "lyb-pixi-js/Components/Base/LibPixiText.js";
-import { Container } from "pixi.js";
 
 export class GameScreen extends LibDestroyContainer {
   constructor() {

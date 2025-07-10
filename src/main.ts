@@ -1,7 +1,5 @@
 import gsap from "gsap";
-import { Application, Assets, Container, Graphics, Sprite } from "pixi.js";
-import * as PIXI from "pixi.js";
-import { PixiPlugin } from "gsap/PixiPlugin";
+import { Application, Container, Graphics } from "pixi.js";
 import { LibPixiPerforMon } from "lyb-pixi-js/Components/Custom/LibPixiPerforMon.js";
 import { libJsIsMobile } from "lyb-js/Browser/LibJsIsMobile.js";
 import { libJsIsPad } from "lyb-js/Browser/LibJsIsPad.js";

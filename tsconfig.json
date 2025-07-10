@@ -1,21 +1,33 @@
 {
   "compilerOptions": {
-    "strict": false,
-    "strictPropertyInitialization": false,
-    "verbatimModuleSyntax": true,
-    "baseUrl": "./",
     "allowJs": true,
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "isolatedModules": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "target": "esnext",
-    "noEmit": true,
-    "types": ["node", "vite/client"],
+    "strict": true,
+    "target": "ESNext",
+    "noUnusedLocals": true, // 是否检查未使用的变量
+    "strictNullChecks": true, // 是否检查空指针
+    "noImplicitThis": true, // 是否检查this
+    "noUnusedParameters": true, //检查未使用的函数参数
+    "types": [
+      "node",
+      "vite/client"
+    ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ],
     }
   },
-  "include": ["src", "global.d.ts"]
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.d.ts"
+  ]
 }
